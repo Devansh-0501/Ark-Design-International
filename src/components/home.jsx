@@ -9,6 +9,7 @@ import img6 from "../Assets/icons8-conference-94.png";
 import img7 from "../Assets/icons8-trust-94.png";
 import img8 from "../Assets/teamwork.png";
 import img9 from "../Assets/icons8-client-management-96.png";
+import img10 from "../Assets/Amazing-Modern-House-Designs-HD-Wallpaper.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/home.css";
@@ -73,53 +74,60 @@ const Home = () => {
           </div>
         </Carousel>
       </section>
-      <section class="section2" id="Projects">
-        <div class="gridd">
-        <Card
+      <section className="section2" id="Projects">
+        <div className="gridd">
+          <Card
             image={img1}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
-            libero!"
+            libero! "
+            heading="project-1"
           />
-         <Card
+          <Card
             image={img2}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="project-2"
           />
           <Card
             image={img3}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="project-3"
           />
           <Card
-            image={img4}
+            image={img10}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="project-4"
           />
           <Card
-            image={img4}
+            image={img10}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="project-5"
           />
           <Card
-            image={img4}
+            image={img10}
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="project-6"
           />
         </div>
       </section>
-      <section class="section3" id="AboutUs">
+      <section className="section3" id="AboutUs">
         <div className="PA">
           <Card
             image="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=2000"
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="Principal Architect"
           />
 
           <Card
@@ -127,22 +135,29 @@ const Home = () => {
             message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
             libero!"
+            heading="Principal Architect"
           />
         </div>
         <div className="section3_3">
           <img src={img5} alt="" />
           <p>ARK DESIGN INTERNATIONAL</p>
-          <div class="motiveLogo">
-            <img src={img6} alt="" />
-            <img src={img7} alt="" />
-            <img src={img8} alt="" />
-            <img src={img9} alt="" />
-          </div>
-          <div class="motive">
-            <p>Teamwork</p>
-            <p>Customer Care</p>
-            <p>Equality</p>
-            <p>Client Management</p>
+          <div className="motives">
+            <div>
+              <img src={img6} alt="" />
+              <p>Teamwork</p>
+            </div>
+            <div>
+              <img src={img7} alt="" />
+              <p>Customer Care</p>
+            </div>
+            <div>
+              <img src={img8} alt="" />
+              <p>Equality</p>
+            </div>
+            <div>
+              <img src={img9} alt="" />
+              <p>Client Management</p>
+            </div>
           </div>
         </div>
       </section>

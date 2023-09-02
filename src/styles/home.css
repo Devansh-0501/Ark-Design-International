@@ -1,18 +1,13 @@
-.section1{
+.section1 {
   padding: 0 80px;
-  
 }
 .section1 img {
   margin-top: 80px;
   width: 100%;
   height: 90vh;
- 
 }
 .section2 {
-  
   background-color: rgb(22, 21, 21);
-  
-  
   padding: 10px 0;
 }
 .gridd {
@@ -21,68 +16,57 @@
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
-  
 }
- .section2 img {
-  width: 400px;
-  height: 400px;
+.gridd img {
   border-radius: 10px;
-} 
-.section3{
+}
+
+.section3 {
   display: flex;
   flex-direction: column;
-  background-color: rgb(22, 21, 21);
-}
-.PA{
-  margin-top: 80px;
-  height: 100vh;
-  padding: 1rem 0;
   background-color: rgb(16, 16, 16);
+}
+.PA {
+  margin-top: 40px;
+  flex-wrap: wrap;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-evenly;
 }
 
-.section3_3{
-  
-    background-color: rgb(16, 16, 16);
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    padding: 10px 0;
-    color: aliceblue;
-    font-size: 40px;
+.section3_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  color: aliceblue;
+  font-size: 40px;
+  margin-bottom: 2rem;
 }
 .section3_3 img {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    margin-bottom: 40px;;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 40px;
 }
-.section3_3 .motive{
-  display: flex;
-  justify-content: space-evenly;
-  /* align-items: center; */
-  width: 94%;
-  height: 200px;
-  margin-left: 70px;
-
-}
-.motive p{
-  font-size: 30px;
-}
-.section3_3 .motiveLogo{
-  
+.motives {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 40px;
-  
   width: 100%;
-  height: 200px;
 }
-.section3_3 .motiveLogo img{
+.motives div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.motives div p {
+  font-size: 30px;
+}
+
+.motives div img {
   height: 100px;
   width: 100px;
 }
