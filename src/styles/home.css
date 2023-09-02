@@ -1,9 +1,50 @@
+.section1{
+  padding: 0 80px;
+  
+}
 .section1 img {
+  margin-top: 80px;
   width: 100%;
+  height: 90vh;
+ 
+}
+.section2 {
+  
+  background-color: rgb(22, 21, 21);
+  
+  
+  padding: 10px 0;
+}
+.gridd {
+  margin-top: 80px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  
+}
+ .section2 img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+} 
+.section3{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(22, 21, 21);
+}
+.PA{
+  margin-top: 80px;
   height: 100vh;
+  padding: 1rem 0;
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.section3{
+.section3_3{
+  
     background-color: rgb(16, 16, 16);
     display: flex;
     flex-direction: column;
@@ -13,13 +54,13 @@
     color: aliceblue;
     font-size: 40px;
 }
-.section3 img {
+.section3_3 img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
     margin-bottom: 40px;;
 }
-.section3 .motive{
+.section3_3 .motive{
   display: flex;
   justify-content: space-evenly;
   /* align-items: center; */
@@ -31,7 +72,7 @@
 .motive p{
   font-size: 30px;
 }
-.section3 .motiveLogo{
+.section3_3 .motiveLogo{
   
   display: flex;
   justify-content: space-evenly;
@@ -41,23 +82,7 @@
   width: 100%;
   height: 200px;
 }
-.section3 .motiveLogo img{
+.section3_3 .motiveLogo img{
   height: 100px;
   width: 100px;
-}
-.section2 {
-  background-color: rgb(22, 21, 21);
-  display: flex;
-  justify-content: center;
-  padding: 10px 0;
-}
-.gridd {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-}
-.section2 img {
-  width: 400px;
-  height: 400px;
-  border-radius: 10px;
 }

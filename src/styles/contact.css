@@ -1,0 +1,113 @@
+.contact::before {
+  content: "";
+  
+  position: absolute;
+  z-index: -1;
+  /* top: 0;  */
+  background: url("https://arkdesigns.co.in/wp-content/uploads/2023/07/ARK-1-9.jpg")
+    no-repeat center center/cover;
+  height: 90vh;
+  width: 100%;
+  opacity: 0.2;
+}
+.contact {
+ 
+  /* background-size: cover; */
+
+  display: flex;
+
+  /* justify-content: space-evenly;  */
+
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+.forms {
+  
+  position: absolute;
+  top: 80px;
+  right: 0;
+
+  width: 60%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.forms h1 {
+  color: rgb(255, 253, 253);
+  font-size: 3rem;
+}
+.forms form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+.forms form div {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 0.8rem;
+}
+.forms form div input {
+  align-self: stretch;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(123, 123, 123, 0.6);
+  outline: none;
+}
+
+.forms form input,
+textarea {
+  margin-top: 10px;
+  align-self: stretch;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  border-radius: 4px;
+  padding: 10px;
+}
+/* .forms form textarea{
+
+} */
+.forms form button {
+  margin-top: 2rem;
+  margin-left: 12rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  font: 500 1.5rem white;
+  opacity: 0.9;
+}
+.forms form button:hover {
+  cursor: pointer;
+  opacity: 0.89;
+  font-size: 1.55rem;
+}
+
+.contact-logo {
+  
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 90vh;
+  width: 40%;
+}
+.contact-logo h1 {
+  color: white;
+}
+
+.contact-logo img {
+  height: 45vh;
+  border-radius: 5%;
+}

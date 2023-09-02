@@ -1,0 +1,32 @@
+.card {
+  padding: 10px;
+  background-color: rgb(16, 16, 16);
+
+  width: 25rem;
+
+  transition: 0.7s;
+  text-align: center;
+  opacity: 0.9;
+  /* height: 34rem; */
+  color: rgb(35, 34, 34);
+}
+.card img {
+  height: 25rem;
+  width: 100%;
+  border-radius: 50%;
+}
+.card:hover {
+  height: 37rem;
+  color: white;
+  opacity: 1;
+}
+.card h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 30px;
+}
+.card h3 {
+  
+  font-size: 1.5rem;
+  /* margin: 30px; */
+}

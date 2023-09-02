@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Cards";
 import img1 from "../Assets/1.webp";
 import img2 from "../Assets/2.jpg";
 import img3 from "../Assets/3.jpg";
@@ -74,29 +75,75 @@ const Home = () => {
       </section>
       <section class="section2" id="Projects">
         <div class="gridd">
-          <img src={img1} alt="" />
-          <img
-            src={img2}
-            alt=""
+        <Card
+            image={img1}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
           />
-          <img src={img3} alt="" />
-          <img src={img4} alt="" />
+         <Card
+            image={img2}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
+          <Card
+            image={img3}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
+          <Card
+            image={img4}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
+          <Card
+            image={img4}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
+          <Card
+            image={img4}
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
         </div>
       </section>
       <section class="section3" id="AboutUs">
-        <img src={img5} alt="" />
-        <p>ARK DESIGN INTERNATIONAL</p>
-        <div class="motiveLogo">
-          <img src={img6} alt="" />
-          <img src={img7} alt="" />
-          <img src={img8} alt="" />
-          <img src={img9} alt="" />
+        <div className="PA">
+          <Card
+            image="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=2000"
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
+
+          <Card
+            image="https://t4.ftcdn.net/jpg/02/82/72/09/360_F_282720917_7ZtAfEqEfA6CRT66imV9avGWXEg9w6Jt.jpg"
+            message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            consequatur quia eaque, odit eum nesciunt vel cumque laudantium hic
+            libero!"
+          />
         </div>
-        <div class="motive">
-          <p>Teamwork</p>
-          <p>Customer Care</p>
-          <p>Equality</p>
-          <p>Client Management</p>
+        <div className="section3_3">
+          <img src={img5} alt="" />
+          <p>ARK DESIGN INTERNATIONAL</p>
+          <div class="motiveLogo">
+            <img src={img6} alt="" />
+            <img src={img7} alt="" />
+            <img src={img8} alt="" />
+            <img src={img9} alt="" />
+          </div>
+          <div class="motive">
+            <p>Teamwork</p>
+            <p>Customer Care</p>
+            <p>Equality</p>
+            <p>Client Management</p>
+          </div>
         </div>
       </section>
     </>
